@@ -1,0 +1,28 @@
+@use "./theme/scss/variables.scss";
+@use "./theme/scss/layout.scss";
+@use "./theme/scss/datatable.scss";
+
+* {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.my-chart {
+  max-width: 100%;
+  height: 50vh;
+  overflow: auto;
+}
